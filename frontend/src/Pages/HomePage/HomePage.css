@@ -1,0 +1,34 @@
+.home-page {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin-inline: 9%;
+  flex-wrap: wrap; /* Ensures wrapping for small screens */
+  gap: 15px; /* Adds space between elements */
+  justify-content: center;
+}
+
+.big-item {
+  width: 45%;
+}
+
+.small-item {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px; /* Space between items */
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.small-item-child {
+  width: 48.5%; /* Adjust to prevent overflowing */
+  height: 48%; /* Set height proportionate to the container */
+}
+
+.small-item-child img {
+  width: 100%; /* Ensure the image scales to the width of the container */
+  height: 100%; /* Ensure the image scales to the height of the container */
+  object-fit: fill; /* Fill the container and crop overflow */
+  border-radius: 5px; /* Optional: Rounded corners for a polished look */
+}

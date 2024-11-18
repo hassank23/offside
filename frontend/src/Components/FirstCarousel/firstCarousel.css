@@ -1,0 +1,10 @@
+.carousel {
+    border-radius: 5px; /* Adjust for desired roundness */
+    overflow: hidden; /* Ensures images stay within the rounded borders */
+  }
+.carousel img {
+    height: 400px; /* Set a fixed height */
+    object-fit: fill; /* Ensures the image scales properly without distortion */
+    width: 100%; /* Ensures images take full width */
+    border-radius: inherit; 
+  }

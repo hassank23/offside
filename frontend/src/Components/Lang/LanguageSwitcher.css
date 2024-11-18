@@ -1,0 +1,14 @@
+/* Parent container to position the button */
+.switch-direction {
+    position: absolute; /* Ensure the container doesn't move with the layout */
+    top: 20px; /* Adjust this value to control vertical positioning */
+    right: 20px; /* Keeps the button always on the right */
+    z-index: 1000; /* Ensure it appears above other elements if necessary */
+  }
+  
+  /* Button Styling */
+  .switch-direction button {
+    min-width: 120px; /* Ensure consistent button width */
+    text-align: center; /* Center the text within the button */
+  }
+  
